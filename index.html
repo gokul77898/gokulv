@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Notes and Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div id="app">
+        <h1>Generate Notes and Search Results</h1>
+        <textarea id="input" placeholder="Enter your query..."></textarea>
+        <button id="generate">Generate</button>
+        
+        <!-- Loading spinner -->
+        <div class="spinner" id="loading-spinner"></div>
+
+        <!-- Output sections -->
+        <div class="output-section">
+            <div class="output-header">Generated Notes</div>
+            <div class="notes-output" id="notes"></div>
+
+            <div class="output-header">Search Results</div>
+            <div class="search-results-output" id="search-results"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
